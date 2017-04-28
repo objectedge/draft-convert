@@ -8,6 +8,12 @@ export default function defaultInlineHTML(style) {
       return <em />;
     case 'UNDERLINE':
       return <u />;
+    case 'STRIKETHROUGH':
+      return <strike />;
+    case 'SUPERSCRIPT':
+      return <sup />;
+    case 'SUBSCRIPT':
+      return <sub />;
     case 'CODE':
       return <code />;
     default:
